@@ -1,5 +1,8 @@
+
 def hello_world():
-    # Returns a DevOps greeting
     return "Hello, DevOps!"
+
+def welcome_message(name):
+    return f"Welcome to DevOps, {name}!"
 
 print(hello_world())
